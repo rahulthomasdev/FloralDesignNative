@@ -19,7 +19,6 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:padding=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -100,7 +99,15 @@
                     android:layout_height="80dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
-                    app:cardCornerRadius="20dp"/>
+                    app:cardCornerRadius="20dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:padding="5dp"
+                        app:srcCompat="@drawable/baseline_shopping_cart_24" />
+                </com.google.android.material.card.MaterialCardView>
 
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="0dp"
